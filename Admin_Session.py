@@ -62,4 +62,11 @@ def admin_session(db,command_handler):
                print("User not found")
            else:
                print(username + "has been deleted")
+               
+       elif user_option == "5":
+            print("Logging out...")
+            break
+        
+       else:
+            print("Invalid option. Please choose again.")
           
